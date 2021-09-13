@@ -1,0 +1,57 @@
+<html>
+<head>
+<link rel="stylesheet" href="p9_mainstylesheet.css">
+<title>Landing Page</title>
+</head>
+<body>
+<div class="main">
+<div class="top">
+<h2>Frank's Personal Home Page</h2>
+<table class="selector">
+<tr class="selector">
+<td><a href="p9_homepage.html">Landing Page</a></td>
+<td><a href="p9_about.html">About</a></td>
+<td><a href="p9_hobbies.html">Hobbies</a></td>
+<td class="currentpage"><a href="p9_mathgame.html">Math Minigame</a></td>
+</tr>
+</table>
+</div>
+<div class="text">
+<div class="game">
+<table>
+<tr>
+<td class="w80">
+<p>
+How this works: <br>
+This is loosely based on a game from elementary school. You have 90 seconds to answer as many of the following math questions as you can. All answers will be integers. Represent negative numbers with the "-" sign. Sample answers include 8, -18, and 193. Pressing the enter key (more specifically, releasing the enter key) moves you on to the next question, which can be used to skip the current question. You get 1 point per correct question, and no penalty for skipping or answering incorrectly. The highscore does not persist after reloading the page.
+</p>
+</td>
+<td class="w20">
+<table>
+<tr><td><button id="restart" disabled>Restart</button></td></tr>
+<tr><td id="highscore">Highscore: 0</td></tr>
+<tr><td id="score">Score: 0</td></tr>
+<tr><td id="timeleft">Time left (s): 0</td></tr>
+</table>
+</td>
+</tr>
+</table>
+<div id="equation">Time is up.</div>
+<div class="inputanswer">
+<input id="answer" type="text"></input>
+</div>
+<div class="startbutton">
+<button id="startbutton">Start!</button>
+</div>
+</div>
+</div>
+<footer>Current Date and Time (Reload Page to Refresh): <span id="datetime"><noscript>Javascript not supported by browser.</noscript></span><br>- Made by Frank Chun Yeung Wong for Intro to Comp. Sci 2 - Spring 2021</footer>
+</div>
+<script src="mathgame.js" />
+<script>
+var dt_element = document.getElementById("datetime");
+var datetime = new Date();
+dt_element.innerHTML = datetime.toString().substring(4,24);
+</script>
+</body>
+</html>

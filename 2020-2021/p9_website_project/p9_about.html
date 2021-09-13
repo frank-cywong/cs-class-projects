@@ -1,0 +1,68 @@
+<html>
+<head>
+<link rel="stylesheet" href="p9_mainstylesheet.css">
+<title>About</title>
+</head>
+<body>
+<div class="main">
+<div class="top">
+<h2>Frank's Personal Home Page</h2>
+<table class="selector">
+<tr class="selector">
+<td><a href="p9_homepage.html">Landing Page</a></td>
+<td class="currentpage"><a href="p9_about.html">About</a></td>
+<td><a href="p9_hobbies.html">Hobbies</a></td>
+<td><a href="p9_mathgame.html">Math Minigame</a></td>
+</tr>
+</table>
+</div>
+<div class="text">
+<table id="fwidth">
+<tr id="fwidth">
+<td class="twidth">
+<p><span class="s18">Personal Information:</span><br>
+Last Name: Wong<br>
+First Name: Chun Yeung<br>
+English Preferred Name: Frank<br>
+Age: 15<br>
+Grade: 10<br>
+Location of Residence: New York City<br>
+Location of Birth: Hong Kong<br>
+Languages Fluent In: English, Cantonese, Mandarin<br>
+</p>
+</td>
+<td class="twidth">
+<p><span class="s18">Current Courses:</span><br>
+<span data-c="g">MATH</span> AP Calculus BC<br>
+<span data-c="p">ART</span> Art Appreciation<br>
+<span data-c="r">HUMANITIES</span> European Literature<br>
+<span data-c="r">LANGUAGES</span> Spanish<br>
+<span data-c="r">HUMANITIES</span> AP World History<br>
+<span data-c="g">SCIENCE</span> Honours Chemistry<br>
+<span data-c="d">PHYS ED</span> Physical Education<br>
+<span data-c="g">CS</span> Intro to Computer Science<br>
+<span data-c="y">EX CURRICULAR</span> <span data-c="g">MATH</span> Math Team<br>
+</p>
+</td>
+<td class="twidth">
+<p><span class="s18">Academic Achievements:</span><br>
+<span data-c="d">GENERAL</span> Average High School Semester Unweighted GPA of 3.969<br>
+<span data-c="d">GENERAL</span> Highest Mark in Grade during 8th Grade 1st Semester<br>
+<span data-c="y">EX CURRICULAR</span> <span data-c="g">MATH</span> Won many Awards in Math Competitions<br>
+<span data-c="y">EX CURRICULAR</span> <span data-c="g">MATH</span> 164 AMC/AIME Index Score in 9th Grade<br>
+<span data-c="g">MATH</span> Took Calculus I Equivalent Course in 8th Grade<br>
+<span data-c="y">EX CURRICULAR</span> <span data-c="g">CS</span> Entered USACO Gold Division after 2 Rounds<br>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<footer>Current Date and Time (Reload Page to Refresh): <span id="datetime"><noscript>Javascript not supported by browser.</noscript></span><br>- Made by Frank Chun Yeung Wong for Intro to Comp. Sci 2 - Spring 2021</footer>
+</div>
+<script>
+var dt_element = document.getElementById("datetime");
+var datetime = new Date();
+dt_element.innerHTML = datetime.toString().substring(4,24);
+</script>
+</body>
+</html>

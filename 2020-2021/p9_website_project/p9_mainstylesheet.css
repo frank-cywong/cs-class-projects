@@ -1,0 +1,150 @@
+body {
+	margin: 0px;
+	min-height: 100vh;
+}
+div.main {
+	font-family: Roboto, Arial, sans-serif;
+}
+div.top {
+	background-color: #ACB3FD;
+	text-align: center;
+}
+div.text {
+	margin: 8px;
+	text-align: left;
+	font-size: 16px;
+}
+div.game {
+	background-color: #FEA7B9;
+	padding-bottom: 20px;
+}
+div.inputanswer {
+	width: 100%;
+	text-align: center;
+}
+div.startbutton {
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+#startbutton {
+	height: 30px;
+	width: 160px;
+}
+#equation {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	width: 100%;
+	font-size: 36px;
+}
+input {
+	text-align: center;
+	size: 10;
+	font-size: 24px;
+}
+h2 {
+	padding: 10px;
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+table.selector tr td a {
+	text-decoration: none;
+	color: black;
+	width: 100%;
+	display: block;
+}
+table.selector tr td:hover {
+	background-color: #7486CB;
+}
+table.selector tr td {
+	padding: 5px;
+	text-align: center;
+}
+table.selector tr {
+	font-size: 18px;
+}
+table.selector {
+	padding-left: 10px;
+	padding-right: 10px;
+	table-layout: fixed;
+	width: 100%;
+}
+td.currentpage {
+	background-color: #86CB74;
+}
+td.twidth {
+	width: 33.33%;
+	padding: 10px;
+	border: 3px solid white;
+	vertical-align: top;
+	background-color: #FEA7B9;
+}
+td.w80 {
+	width: 80%;
+}
+td.w20 { 
+	width: 20%;
+	box-sizing: border-box;
+	padding-left: 10%;
+}
+td.w20 table {
+	vertical-align: bottom;
+}
+td.caption {
+	vertical-align: top;
+	text-align: center;
+}
+td.topalign {
+	vertical-align: top;
+}
+span.s18 {
+	font-size: 18px;
+}
+img {
+	width: 500px;
+}
+span[data-c] {
+	font-size: 10px;
+	padding: 3px;
+	color: white;
+	vertical-align: 2px;
+	font-weight: bold;
+}
+span[data-c=r] {
+	background-color: #B44C5F;
+}
+span[data-c=g] {
+	background-color: #899C74;
+}
+span[data-c=y] {
+	background-color: #B5B35B;
+}
+span[data-c=p] {
+	background-color: #6D4CB4;
+}
+span[data-c=d] {
+	background-color: #666666;
+}
+footer {
+	margin-top: 5px;
+	font-size: 12px;
+	text-align: right;
+	background-color: #ACB3FD;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	box-sizing: border-box;
+}
+button {
+	text-align: center;
+}
+#fwidth {
+	width: 100%;
+}

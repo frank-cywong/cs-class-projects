@@ -1,0 +1,80 @@
+a {
+	text-decoration: underline;
+	color: #B7B7F9;
+}
+a:hover {
+	color: #D0D0FF;
+}
+body {
+	background-color: #181818;
+	margin: 0px;
+	color: #D8D8D8;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+}
+div.mainbody {
+	margin: 8px;
+	margin-top: 48px;
+}
+div.section {
+	background-color: #202020;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 8px;
+}
+img {
+	padding: 8px;
+	width: 100%;
+}
+input {
+	width: 100%;
+	background-color: #A8A8A8;
+	color: black;
+}
+p {
+	margin: 0px;
+}
+table {
+	table-layout: fixed;
+	width: 100%;
+}
+table.topbar {
+	background-color: #383838;
+	text-align: center;
+	font-size: 18px;
+	padding: 5px;
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+	box-sizing: border-box;
+	height: 4px;
+}
+table.topbar tr td a {
+	text-decoration: none;
+	color: #B8B8B8;
+}
+table.topbar tr td a:hover {
+	color: #D8D8D8;
+}
+td {
+	width: 50%;
+}
+.f18-b-c {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+.f20-b {
+	font-size: 20px;
+	font-weight: bold;
+}
+.w20 {
+	width: 20%;
+	border: 2px solid #D8D8D8;
+}
+.w80 {
+	width: 80%;
+	border: 2px solid #D8D8D8;
+}

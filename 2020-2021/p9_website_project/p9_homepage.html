@@ -1,0 +1,44 @@
+<html>
+<head>
+<link rel="stylesheet" href="p9_mainstylesheet.css">
+<title>Landing Page</title>
+</head>
+<body>
+<div class="main">
+<div class="top">
+<h2>Frank's Personal Home Page</h2>
+<table class="selector">
+<tr class="selector">
+<td class="currentpage"><a href="p9_homepage.html">Landing Page</a></td>
+<td><a href="p9_about.html">About</a></td>
+<td><a href="p9_hobbies.html">Hobbies</a></td>
+<td><a href="p9_mathgame.html">Math Minigame</a></td>
+</tr>
+</table>
+</div>
+<div class="text">
+<p>Welcome to my home page!<br>
+You may navigate between the different pages using the topbar at the top.<br>
+This website contains basic personal information as well as description of my hobbies as well as a minigame section.<br><br>
+The following is a description of the content available on this website:
+</p>
+<ul>
+<li>Landing Page</li>
+<ul><li>Website Description</li></ul>
+<li>About Page</li>
+<ul><li>Biographical Information</li><li>Current Courses</li><li>Academic Achievements</li></ul>
+<li>Hobbies Page</li>
+<ul><li>Information on Hobbies</li></ul>
+<li>Minigame Page</li>
+<ul><li>Simple Math Minigame</li></ul>
+</ul>
+</div>
+<footer>Current Date and Time (Reload Page to Refresh): <span id="datetime"><noscript>Javascript not supported by browser.</noscript></span><br>- Made by Frank Chun Yeung Wong for Intro to Comp. Sci 2 - Spring 2021</footer>
+</div>
+<script>
+var dt_element = document.getElementById("datetime");
+var datetime = new Date();
+dt_element.innerHTML = datetime.toString().substring(4,24);
+</script>
+</body>
+</html>

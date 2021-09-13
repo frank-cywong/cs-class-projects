@@ -1,0 +1,21 @@
+lines.color: d8d8d8
+patch.edgecolor: d8d8d8
+
+text.color: d8d8d8
+
+axes.facecolor: 202020
+axes.edgecolor: d8d8d8
+axes.labelcolor: d8d8d8
+
+xtick.color: d8d8d8
+ytick.color: d8d8d8
+
+grid.color: d8d8d8
+
+figure.facecolor: 202020
+figure.edgecolor: 202020
+
+savefig.facecolor: 202020
+savefig.edgecolor: 202020
+
+# Mainly copied from dark_background but without prop_cycle and modified white -> #d8d8d8 and black -> 202020
